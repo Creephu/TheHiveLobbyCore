@@ -25,19 +25,19 @@
 #§l : Bold the letters
 
 #Items 1 | Compass
-item1-name: "§bGame Selector §7[Use]"
-item1-cmd: "help"
+item1-name: "§r§bGame Selector §7[Use]" # Name Items
+item1-cmd: "help" # Your Commands
 
 #Items 2 | Totem Of Undying
-item2-name: "§eGlobal Locker §7[Use]"
-item2-cmd: "help 2"
+item2-name: "§r§eGlobal Locker §7[Use]" # Name Items
+item2-cmd: "help 2" # Your Commands
 
 #Items 3 | Name Tag
-item3-name: "§6Friends §7[Use]"
-item3-cmd: "help 3"
+item3-name: "§r§6Friends §7[Use]" # Name Items
+item3-cmd: "help 3" # Your Commands
 
 #Items 4 | Enchanted Book
-item4-name: "§aParty §7[Use]"
-item4-cmd: "about TheHiveLobbyCore"
+item4-name: "§r§aParty §7[Use]" # Name Items
+item4-cmd: "about TheHiveLobbyCore" # Your Commands
 
 #Author : DrelezTM
