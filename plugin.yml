@@ -3,4 +3,4 @@ main: DrelezTM\TheHiveLobbyCore\Main
 api: 3.x.x
 softdepend: ["PerWorldInventory"]
 version: 1.0
-author: DrelezTM, FazrilDev
+author: DrelezTM
