@@ -24,7 +24,7 @@ use pocketmine\event\inventory\InventoryTransactionEvent;
 class Main extends PluginBase implements Listener {
     
     public function onEnable(){
-        $this->getLogger()->info("§f[§aEnabled§f] TheHiveLobbyCore");
+        $this->getServer()->getLogger()->info("§f[§aEnabled§f] TheHiveLobbyCore");
         $this->getServer()->getPluginManager()->registerEvents($this,$this);
         @mkdir($this->getDataFolder());
         $this->saveResource("config.yml");
@@ -32,11 +32,11 @@ class Main extends PluginBase implements Listener {
     }
 
     public function onLoad(){
-        $this->getLogger()->info("§f[§eLoading§f] TheHiveLobbyCore");
+        $this->getServer()->getLogger()->info("§f[§eLoading§f] TheHiveLobbyCore");
     }
 
     public function onDisable(){
-        $this->getLogger()->info("§f[§cDisable§f] TheHiveLobbyCore");
+        $this->getServer()->getLogger()->info("§f[§cDisable§f] TheHiveLobbyCore");
     }
 
     public function onJoin(PlayerJoinEvent $event){
