@@ -1,4 +1,7 @@
 # TheHive LobbyCore
+<p align="center">
+<img style="height: 150px;" alt="@TheHiveLobbyCore" src="https://media.discordapp.net/attachments/858321432178196490/907224927000743956/1636369570040.png"/>
+</p>
 TheHive LobbyCore Pocketmine-MP plugin which can be set in Config.yml file
 
 ## Warning
